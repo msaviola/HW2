@@ -1,63 +1,89 @@
-# HW2
-ucsd bootcamp hw2
-# Unit 02: CSS and Bootstrap
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-## Overview
-When web developers find themselves repeating a task, they often look for programmatic solutions. A prime example is setting up boilerplate HTML and CSS that can be reused. In the previous unit, you built and deployed a simple portfolio site. Now imagine that you're building portfolios for several clients. An efficient approach to this scenario would be to create a master stylesheet and then customize copies of it for each portfolio. In doing so, you'd be implementing a simple CSS framework. 
-
-CSS frameworks allow us to quickly style a web application so we can focus on **bootstrapping** it (i.e., building and deploying the business logic). Most CSS frameworks handle the more challenging aspects of CSS for us, such as floats and media queries. Another benefit of using CSS frameworks is that it ensures consistency across applications. Depending on your career trajectory, you may find yourself maintaining multiple web applications and, as you learned in the previous unit, CSS can get unruly very quickly. As applications scale, being able to easily maintain and organize your codebase becomes very important.
-
-The CSS framework we'll use in this course is Bootstrap. Bootstrap was one of the first CSS frameworks and is, at the time of this writing, the most widely used in production. It was created by the developers at Twitter for the reasons discussed above and released as an open source project in 2011, meaning anyone could use it in their applications for free. There are dozens of CSS frameworks to choose from now. Learning Bootstrap will set you up to quickly adapt to almost any framework as they tend to share the same underlying concept of a grid system structured by rows and columns.
-
-## Key Topics
-The following topics will be covered in this unit:
-* Developer tools
-* CSS resets
-* Typography
-* Pseudo-classes
-* !important
-* Media queries
-* Viewport tag
-* CDN
-* Bootstrap
-* Bootstrap components
-  * Bootstrap predefined classes
-  * Bootstrap rows, columns, and containers
-  * Bootstrap grids
-* GitHub Pages
-
-## Comprehension Check
-
-You will be employer-ready if you can answer the following questions:
-
-1. What is a CDN?
-2. What is a CSS framework?
-3. What are three benefits of using a CSS framework?
-
-## Learning Objectives
-
-You will be employer-competitive if you are able to:
-
-* Explain the importance of CSS resets and cross-browser compatibility
-* Explain and implement content delivery network links in HTML files
-* Implement a grid layout in HTML to leverage the benefits of a CSS framework
-* Integrate Bootstrap components in HTML files to quickly build user interfaces
-* Add custom styling to a CSS framework
-* Deploy to GitHub pages
-
-## Homework: Responsive Portfolio
-
-Use the Bootstrap CSS Framework to recreate your portfolio.
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
-## Helpful Links
+## Directions
 
-* [CSS frameworks](https://en.wikipedia.org/wiki/CSS_framework)
-* [Bootstrap Official Docs](https://getbootstrap.com/)
-* [Bootstrap Components](https://getbootstrap.com/docs/4.3/components/alerts/)
-* [!important](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
-* [CDN (wikipedia)](https://en.wikipedia.org/wiki/Content_delivery_network)
-* [GitHub Pages](https://pages.github.com/)
+First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+
+* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+
+* Using Bootstrap, develop your portfolio site with the following items:
+
+   * A navbar
+
+   * A responsive layout
+
+   * Responsive images
+
+* The Bootstrap portfolio should minimize the use of media queries.
+
+* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+
+### Hints
+
+* Use Bootstrap's grid system (containers, rows, and columns).
+
+* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+
+* Use an HTML validation service to ensure that each page has valid HTML.
+
+### Minimum Requirements
+
+* Functional, deployed application
+
+* GitHub repository with README describing the project
+
+* Navbar must be consistent on each page.
+
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+
+* All links must work.
+
+* Must use semantic html.
+
+* Each page must have valid and correct HTML. (use a validation service)
+
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+
+* Must properly utilize Bootstrap components and grid system.
+
+
+### Bonus
+
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+
+
+## Commit Early and Often
+
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+
+* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+
+Follow these guidelines for committing:
+
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+
+* Test your application before you commit to ensure functionality at every step in the development process.
+
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URLs of the deployed applications
+
+* The URLs of the GitHub repositories
 
 - - -
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
