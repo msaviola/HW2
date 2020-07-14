@@ -45,9 +45,10 @@ h1{
   color: #4AAAA5;
   border-bottom: 1px solid darkgrey;
 }
-.content img {
-    max-height: 200px;
-}
+ .img-thumbnail {
+    height: 200px;
+    width: 200px;
+} 
 
 .btn{
   background-color:#4AAAA5;
