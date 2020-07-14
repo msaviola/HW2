@@ -1,36 +1,4 @@
 
-
-header{
-  background-color:whitesmoke;
-  border-bottom: 1px solid grey;
-  color: black;
-  width: auto;
-}
-
-
-/*Nav bar and brand Links formating */
-
-/* a {
-     color: #ffffff; 
-    
-    text-decoration: none;
-    padding: 5px;
-    
-    margin-bottom: 0px;
-}*/
-
-.nav navbar-brand {
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-    text-align: center;    
-    color:white;
-    background-color:#4AAAA5;
-    width: 200px;
-     
-    
-  
-} 
-
 body {
   /* Typography */
   font-size: 18px;
@@ -45,43 +13,69 @@ body {
   box-sizing: border-box;
 }
 
+/*Nav bar and brand Links formating */
+header{
+  background-color:whitesmoke;
+  border-bottom: 1px solid darkgrey;
+  width: auto;
+}
+
+ a {
+    color: grey;     
+    text-decoration: none;
+    padding: 5px;    
+    margin-bottom: 0px;
+
+}
+
+.navbar-brand {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;  
+    background-color:#4AAAA5;
+    color:white;
+    padding: 20px;
+    width: 200px;
+} 
+
 h1{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #4AAAA5;
+  border-bottom: 1px solid darkgrey;
 }
 .content img {
     max-height: 200px;
 }
 
+.btn{
+  background-color:#4AAAA5;
+  border-color: #4AAAA5;
+    color:white;
+}
 
 
 /*set up the body background color */
 
- 
-  
   /*
     The background color will be #ccc
     at browser widths above 768px
-  */
- 
   
-  /*
     The width of the wrapper will be 1024px
     at browser widths above 768px
   */
+
   .wrapper {
     /* Box-model */
     width: 1024px;
-  
-    /* Positioning */
     margin: 40px auto;
   }
   
   #main-content
  {
     /* Box-model */
-    width: 800px;
+    height: 100%;
+    width: 100%;
     padding: 30px;
     /* Positioning */
     float: left;
@@ -90,7 +84,15 @@ h1{
     background: white;
   }
   
- 
+ footer{
+  text-align: center;
+  background-color: darkgrey;
+  color:whitesmoke;
+  border-top:5px solid #4AAAA5;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
   
  
   
@@ -105,20 +107,16 @@ h1{
       padding: 20px;
     }
   
-    #main-content,
-   {
+    #main-content   {
       width: 100%;
     }
   
-    /* #sidebar {
-      margin-top: 40px;
-    } */
   }
   
   /* Additional Screen Sizes */
   
   /* Width at 320px and below */
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 680px) {
     body {
       background-color: #333;
     }
@@ -129,14 +127,19 @@ h1{
       padding: 20px;
     }
   
-    #main-content,
-    #sidebar {
+    #main-content{
       width: 100%;
     }
+   
   
-    #sidebar {
-      margin-top: 40px;
-    }
+    .navbar-brand {   
+      width: 100%;
+    } 
+  
+   h1{
+    width: 100%;
+    } 
+
   }
   
   /* Width at 168px and below */
@@ -151,12 +154,9 @@ h1{
       padding: 20px;
     }
   
-    #main-content,
-    {
+    #main-content    {
       width: 100%;
     }
   
-    #sidebar {
-      margin-top: 40px;
-    }
+    
   }
