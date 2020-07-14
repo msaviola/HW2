@@ -1,48 +1,70 @@
-/*set up the body background color */
-body {
-    background-color: #d9dcd6;
+
+
+header{
+  background-color: white;
+  border-bottom: 1px solid grey;
+  color: black;
+  width: 1024px;
 }
 
-/*Header and Links lists formating */
 
-a {
-    color: #ffffff;
+/*Nav bar and brand Links formating */
+
+/* a {
+    /* color: #ffffff; */
+    
     text-decoration: none;
-}
+    padding: 5px; 
+    
+    margin-bottom: 0px;
+} */
 
-.a navbar-brand {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.header-navbar-brand {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;    
+    color:white;
     background-color:#4AAAA5;
-    color: #ffffff;
+    width: 200px;
+     
+    
+    /* margin: 20px; */
+} 
+
+body {
+  /* Typography */
+  font-size: 18px;
+  line-height: 27px;
+
+  /* Visual */
+  background-color: whitesmoke;
+  color: grey;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #4AAAA5;
+}
 .content img {
     max-height: 200px;
 }
 
 
 
-/**
- * Media Query Style Exercise: Solved;
- **/
+/*set up the body background color */
 
- * {
-    box-sizing: border-box;
-  }
+ 
   
   /*
     The background color will be #ccc
     at browser widths above 768px
   */
-  body {
-    /* Typography */
-    font-size: 18px;
-    line-height: 27px;
-  
-    /* Visual */
-    background-color: #ccc;
-  }
+ 
   
   /*
     The width of the wrapper will be 1024px
@@ -56,14 +78,11 @@ a {
     margin: 40px auto;
   }
   
-  #main-content,
-  #sidebar {
+  #main-content
+ {
     /* Box-model */
     width: 500px;
     padding: 30px;
-  }
-  
-  #main-content {
     /* Positioning */
     float: left;
   
@@ -71,13 +90,9 @@ a {
     background: #fff;
   }
   
-  #sidebar {
-    /* Positioning */
-    float: right;
+ 
   
-    /* Visual */
-    background: #eee;
-  }
+ 
   
   @media screen and (max-width: 768px) {
     body {
@@ -91,13 +106,13 @@ a {
     }
   
     #main-content,
-    #sidebar {
+   {
       width: 100%;
     }
   
-    #sidebar {
+    /* #sidebar {
       margin-top: 40px;
-    }
+    } */
   }
   
   /* Additional Screen Sizes */
@@ -137,7 +152,7 @@ a {
     }
   
     #main-content,
-    #sidebar {
+    {
       width: 100%;
     }
   
