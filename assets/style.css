@@ -1,25 +1,25 @@
 
 
 header{
-  background-color: white;
+  background-color:whitesmoke;
   border-bottom: 1px solid grey;
   color: black;
-  width: 1024px;
+  width: auto;
 }
 
 
 /*Nav bar and brand Links formating */
 
 /* a {
-    /* color: #ffffff; */
+     color: #ffffff; 
     
     text-decoration: none;
-    padding: 5px; 
+    padding: 5px;
     
     margin-bottom: 0px;
-} */
+}*/
 
-.header-navbar-brand {
+.nav navbar-brand {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     text-align: center;    
@@ -28,7 +28,7 @@ header{
     width: 200px;
      
     
-    /* margin: 20px; */
+  
 } 
 
 body {
@@ -37,7 +37,7 @@ body {
   line-height: 27px;
 
   /* Visual */
-  background-color: whitesmoke;
+  background-color:lightgray;
   color: grey;
 }
 
@@ -81,13 +81,13 @@ h1{
   #main-content
  {
     /* Box-model */
-    width: 500px;
+    width: 800px;
     padding: 30px;
     /* Positioning */
     float: left;
   
     /* Visual */
-    background: #fff;
+    background: white;
   }
   
  
