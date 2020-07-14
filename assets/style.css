@@ -28,9 +28,10 @@ header{
 
 }
 
+.navbar-light
 .navbar-brand {
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+    font-family: serif;
+    font-weight: bolder;
     text-align: center;  
     background-color:#4AAAA5;
     color:white;
