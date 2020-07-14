@@ -82,6 +82,7 @@ h1{
   
     /* Visual */
     background: white;
+    margin-bottom: 20px;
   }
   
  footer{
@@ -90,8 +91,10 @@ h1{
   color:whitesmoke;
   border-top:5px solid #4AAAA5;
   padding: 20px;
-  position: fixed;
+  position: bottom fixed;
   width: 100%;
+  clear: both;
+  
 }
   
  
@@ -110,7 +113,10 @@ h1{
     #main-content   {
       width: 100%;
     }
-  
+   
+    footer{
+      clear: both;
+    }
   }
   
   /* Additional Screen Sizes */
@@ -130,7 +136,9 @@ h1{
     #main-content{
       width: 100%;
     }
-   
+    footer{
+      clear: both;
+    }
   
     .navbar-brand {   
       width: 100%;
