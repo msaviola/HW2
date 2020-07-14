@@ -103,7 +103,7 @@ h1{
   
   @media screen and (max-width: 768px) {
     body {
-      background-color: #333;
+      background-color: whitesmoke;
     }
   
     .wrapper {
@@ -123,10 +123,10 @@ h1{
   
   /* Additional Screen Sizes */
   
-  /* Width at 320px and below */
-  @media screen and (max-width: 680px) {
+  /* Width at 640px and below */
+  @media screen and (max-width: 640px) {
     body {
-      background-color: #333;
+      background-color: lightgray;
     }
   
     .wrapper {
@@ -152,21 +152,4 @@ h1{
 
   }
   
-  /* Width at 168px and below */
-  @media screen and (max-width: 168px) {
-    body {
-      background-color: #333;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content    {
-      width: 100%;
-    }
-  
-    
-  }
+ 
