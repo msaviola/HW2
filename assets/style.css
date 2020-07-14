@@ -79,7 +79,7 @@ h1{
 
   .wrapper {
     /* Box-model */
-    width: 1024px;
+    width: 980px;
     margin: 40px;
     margin-left: 50px;
   }
@@ -120,11 +120,11 @@ h1{
   
     .wrapper {
       /* Box-model */
-      width: 100%;
+      width:768px;
     }
   
     #main-content   {
-      width: 100%;
+      width: auto;
     }
    
     footer{
@@ -137,11 +137,11 @@ h1{
     
   
     .wrapper {
-      width: 100%;
+      width: 640px;
     }
   
     #main-content{
-      width: 100%;
+      width: auto;
     }
     footer{
       clear: both;
