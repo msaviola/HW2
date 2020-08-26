@@ -28,6 +28,13 @@ header{
 
 }
 
+/* .header
+.navbar-nav 
+.nav-link
+.col2{
+  float: right;
+} */
+
 .navbar-light
 .navbar-brand {
     font-family: serif;
@@ -41,6 +48,8 @@ header{
     width: 200px;
     margin-left: 40px;
 } 
+
+
 
 h1{
   font-family: "Times New Roman", Times, serif;
@@ -113,14 +122,14 @@ h1{
   
 }
   
- 
+
   
   @media screen and (max-width: 768px) {
     
   
     .wrapper {
       /* Box-model */
-      width:768px;
+      width:700px;
     }
   
     #main-content   {
@@ -137,7 +146,7 @@ h1{
     
   
     .wrapper {
-      width: 640px;
+      width: 600px;
     }
   
     #main-content{
@@ -147,13 +156,11 @@ h1{
       clear: both;
     }
   
-    .navbar-brand {   
-      width: 100%;
-    } 
+    header{ width: 100%;}
   
-   h1{
+   /* .navbar-brand{
     width: 100%;
-    } 
+    }  */
 
   }
   
